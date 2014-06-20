@@ -8,7 +8,7 @@ namespace BackboneDemo.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Rectangle()
+        public ActionResult Rectangles()
         {
             return View();
         }

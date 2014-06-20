@@ -16,7 +16,7 @@ namespace BackboneDemo
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Rectangle", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Rectangles", id = UrlParameter.Optional }
             );
         }
     }
