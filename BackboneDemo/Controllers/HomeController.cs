@@ -8,9 +8,14 @@ namespace BackboneDemo.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Rectangle()
         {
             return View();
-        }     
+        }
+
+        public ActionResult Events()
+        {
+            return View();
+        }
     }
 }

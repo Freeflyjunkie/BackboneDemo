@@ -131,7 +131,8 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\backbone.min.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\custom\rectangle.js" />
+    <Content Include="Scripts\custom\event.js" />
+    <Content Include="Scripts\custom\rectangles.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -156,9 +157,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Scripts\underscore.min.map" />
+    <Content Include="Views\Home\Events.cshtml" />
+    <Content Include="Views\Home\Rectangle.cshtml" />
+    <Content Include="Views\Home\Rectangles.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
