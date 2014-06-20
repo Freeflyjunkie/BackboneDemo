@@ -1,0 +1,26 @@
+﻿body {   
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.rectangle {
+    position: absolute;
+    border: 1px solid #696969;
+    -ms-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 3px #696969;
+    -ms-box-shadow: 3px 3px 3px #696969;
+    box-shadow: 3px 3px 3px #696969;
+}
